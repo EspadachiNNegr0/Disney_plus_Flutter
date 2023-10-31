@@ -1,0 +1,38 @@
+name: disney_plus
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.5
+  collection: ^1.17.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/logo.png
+    - lib/assets/goosebumps.jpeg
+    - lib/assets/star_wars.png
+    - lib/assets/guardioes.jpg
+    - lib/assets/capa_filme.jpg
+    - lib/assets/capa.jpg
+
+flutter_native_splash:
+  color: "#150e9c"
+  image: "lib/assets/Disney.png"
+  android: true
+  ios: true
+  web: true
